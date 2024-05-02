@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+/* aplica imaem no fundo do site*/
+background-image: url(imagens/fundo.jpg);
+/* evita a repeticao da imagem no fundo*/
+background-repeat: no-repeat;
+/* aplica a imagem de fundo em 100% do fundo*/
+background-size: 100%;
+/* deixa a imagem fixa no fundo do site */
+background-attachment: fixed;
+}
+
+div{
+background-color: aliceblue;
+width: 800px;
+/* aplica um preenchimento interno no elemento*/
+padding: 30px;
+/* arredondar os angulos do elemento */
+border-radius: 30px;
+/*aplicar uma margem no rodape do elemento*/
+margin-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+transition:0.2s linear;
+
+}
+div img{
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+}
+div p{
+
+    text-align: justify;
+    margin-bottom: 15px;
+}
+div h2{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+#titulo{
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#html{
+    border: 10px solid orangered ;
+}
+#css{
+    border: 10px solid rgb(0, 162, 255) ;
+}
+#js{
+    border: 10px solid rgb(255, 217, 4) ;
+}
+#html h2{
+    color:orangered
+}
+#css h2{
+        color:rgb(0, 162, 255)
+}
+#js h2{
+    color: rgb(255, 217, 4);
+}
+.saiba_mais{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition:0.3s linear;
+
+}
+.saiba_mais:hover{
+    color: rgb(255, 12, 12);
+    transition:1s;
+    text-decoration: underline;
+    font-size: 18px;
+}
+div:hover{
+    transform:scale(1.1);
+}
