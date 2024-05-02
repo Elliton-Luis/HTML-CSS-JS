@@ -1,0 +1,60 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin-top: 6%;
+}
+tbody td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+table th{
+    border: 1px solid #cccccc;
+    background-color: black;
+    color: white;
+    padding: auto;
+    padding: 10px;
+}
+h1, h2{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 800px;
+}
+.img{
+ width: 150px;
+ padding: 13px;
+}
+tfoot td{
+    border: 1px solid black;
+    text-align: center;
+}
+img{
+    width: 150px;
+}
+ul{
+    text-align: left;
+    padding: 25px;
+}
+.ep{
+    width: 16%;
+}
+.lema{
+    font-style: italic;
+
+
+}
+.temp{
+    background-color: #cccccc;
+    font-weight: bold;
+    width: 20%;
+}
+.casas{
+    background-color: #cccccc;
+    font-weight: bold; 
+}
