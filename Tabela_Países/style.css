@@ -1,0 +1,35 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+table td, table th{
+    border: 1px solid black;
+    padding: 10px;
+}
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+table thead{
+    background: rgb(47, 116, 41);
+}
+th{
+    color: white;
+}
+table tfoot{
+    text-align: center;
+    font-style: italic;
+}
+
+#br{
+    width: 150px;
+    display: auto;
+    border-radius: 8px;
+}
+td{
+    text-align: center;
+}
