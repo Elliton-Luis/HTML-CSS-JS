@@ -5,7 +5,7 @@ function controle(){
         var b3 = document.getElementById("bola-03");
         var b4 = document.getElementById("bola-04");
     
-        if(btn.innerText == "Pausar");
+        if(btn.innerText == "Pausar"){
             btn.innerText = "Play";
             container.style.backgroundColor = "#000";
             container.style.backgroundColor = "#000";
@@ -18,8 +18,8 @@ function controle(){
             b3.style.animationPlayState = "paused";
             b4.style.animationPlayState = "paused";
         }
-        else
-            btn.innerHTML = "Pausar";
+        else{
+            btn.innerText = "Pausar";
             container.style.backgroundColor = "#FFF";
             b1.style.backgroundColor = "#bd4f4f";
             b2.style.backgroundColor = "#dfdf3b";
@@ -29,5 +29,7 @@ function controle(){
             b2.style.animationPlayState = "running";
             b3.style.animationPlayState = "running";
             b4.style.animationPlayState = "running";
+        }
+}
         
     
